@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container{
+  max-width: 400px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 60px;
+  border: aquamarine solid 2px;
+  border-radius: 5px;
+  /* background-color: rgb(56, 56, 56); */
+}
+
+#input-div{
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+input{
+  margin-bottom: 10px;
+  /* height: 50px; */
+  padding: 22px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+input::placeholder{
+  font-size: 17px;
+}
+
+#addButton{
+  padding: 20px;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 4px;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+#todoList-id{
+  background-color: aquamarine;
+  color: green;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px;
+  border: aquamarine solid 3px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+/* .del-btn{
+  padding: 10px 15px;
+  background-color: rgb(248, 43, 43);
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+} */
+
+.bx{
+  font-size: 30px;
+  color: rgb(248, 20, 20);
+  cursor: pointer;
+}
